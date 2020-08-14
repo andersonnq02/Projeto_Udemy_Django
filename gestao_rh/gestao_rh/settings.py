@@ -99,9 +99,9 @@ STATIC_URL = '/static/'
 # Esse indica os caminhos por onde o python deve buscar
 # os arquivos staticos, pode está em qualquer lugar do servidor.
 # caminho abisoluto = '/var/www/static'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
+# STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "static"),
+# ]
 
 # ----------------
 # Vai apontar a pasta root que vai concentrar dos arquivos
