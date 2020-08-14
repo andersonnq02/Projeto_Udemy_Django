@@ -109,7 +109,7 @@ STATICFILES_DIRS = [
 # Vai ser usando pelo comando python manage.py collectstatic
 # Vai percorrer todas as pastas no SATATICFILES_DIRS
 # Vai copiar os arquivos e vai setar em uma pasta raíz com o nome static dado pelo STATIC_ROOT
-#STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 # --------------------
 
 
